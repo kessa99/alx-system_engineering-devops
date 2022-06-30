@@ -1,0 +1,2 @@
+#!/bin/bas
+sort /etc/passwd | cut -d ':" -f
