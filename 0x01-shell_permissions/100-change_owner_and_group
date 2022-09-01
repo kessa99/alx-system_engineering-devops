@@ -1,2 +1,2 @@
 #!/bin/bash
-chown owner:vincent staff
+chown root:vincent staff
