@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((16#FF))
+echo 'ibase=16; obase=10; FF'
