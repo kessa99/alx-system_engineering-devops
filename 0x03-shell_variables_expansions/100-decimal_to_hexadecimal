@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'ibase=16; obase=10; FF'
+echo 'ibase=16; obase=10; FF' | bc
