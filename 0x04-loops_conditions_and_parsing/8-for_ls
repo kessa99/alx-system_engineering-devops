@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#this scritpt bash print the directory 0x04-loops_conditions_and_parsing
+
+my_dir=`ls`
+for idx in $my_dir;
+do
+    echo "$idx" | cut -d "-" -f2
+done
+
