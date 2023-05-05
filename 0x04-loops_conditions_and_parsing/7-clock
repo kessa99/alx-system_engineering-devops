@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 #This script bash print time
+
 i=0
 while ((i<13))
 do
 	j=1
 	echo "Hour: $i"
-	while ((j<60))
+	while ((j< 60))
 	do
-		echo ":$j"
+		echo $j
 		((j++))
 	done
 	((i++))
