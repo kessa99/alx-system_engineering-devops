@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#display bad or good luck for 4th and 8th iteration in this oder
+
+i=0
+while ((i<10))
+do
+	if ((i==3))
+	then
+		echo "bad luck"
+	elif ((i==7))
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((i++))
+done
