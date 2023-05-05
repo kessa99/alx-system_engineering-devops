@@ -2,7 +2,7 @@
 #this script is dispaynig "Best school" 10 times with until loop
 
 i=0
-until ((i>=10))
+until ((i>10))
 do
 	echo "Best School"
 	((i++))
