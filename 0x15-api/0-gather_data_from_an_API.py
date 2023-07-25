@@ -15,8 +15,8 @@ if __name__ == "__main__":
         name = rpse.json().get("name")
 
         if name is not None:
-            scd_rpse =
-            requests.get("{}todo?userId={}".format(url, user)).json()
+            scd_rpse = requests.get("{}todo?userId={}".format(url,
+                                    user)).json()
             all_task = len(scd_rpse)
             done_task = []
 
