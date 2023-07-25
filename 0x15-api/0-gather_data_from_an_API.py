@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Script python
-with API Rest to import information.
+"""
+Script python with API Rest to import information.
 """
 
 import json
