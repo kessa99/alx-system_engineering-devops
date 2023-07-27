@@ -4,16 +4,16 @@
 Script python with API Rest to import information.
 """
 
+from sys import argv
 import json
 import requests
-import sys
 
 if __name__ == "__main__":
     """
     Step1 Connection to API
     """
-    if len(sys.argv) > 1:
-        user = int(sys.argv[1])
+    if len(argv) > 1:
+        user = int(argv[1])
         url = "https://jsonplaceholder.typicode.com/"
         response_API = requests.get("{}users/{}".format(url, user))
         """
