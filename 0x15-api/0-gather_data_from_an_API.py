@@ -4,9 +4,9 @@
 Script python with API Rest to import information.
 """
 
-from sys import argv
 import json
 import requests
+from sys import argv
 
 if __name__ == "__main__":
     """
