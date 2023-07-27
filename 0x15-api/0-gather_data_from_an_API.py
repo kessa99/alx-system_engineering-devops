@@ -4,7 +4,6 @@
 Script python with API Rest to import information.
 """
 
-import json
 import requests
 import sys
 
