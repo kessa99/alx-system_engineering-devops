@@ -6,7 +6,7 @@ Script python with API Rest to import information.
 
 import json
 import requests
-from sys import argv
+import sys
 
 if __name__ == "__main__":
     """
