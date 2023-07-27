@@ -18,7 +18,7 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/todos?userId={}".format(param)
     todo_json = requests.get(url, verify=True).json()
 
-    with open("USER_ID.csv", 'w', newline='') as file:
+    with open("{}.csv".format(param), 'w', newline='') as file:
         csvreader = csv.writer(file, quoting=csv.QUOTE_ALL)
 
         for data in todo_json:
