@@ -31,7 +31,7 @@ if __name__ == "__main__":
                 """
                 check if name variable is not empty
                 """
-                second_rpse = requests.get("{}todo?userId={}"
+                second_rpse = requests.get("{}todos?userId={}"
                                            .format(url, user))
                 data1 = second_rpse.text
                 second_json_format = json.loads(data1)
