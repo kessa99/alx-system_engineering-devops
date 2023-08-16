@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
-
-sudo netstat
+netsat -nlt | awk 'NR>2 && $NF == "LISTEN" {print $4}' | while read line
+do
+	pid=$(lsof -t -i ${line#*:})
+	name=$(ps -p $pid -o comm=)
+	echo "$line $pid $name"
+done

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#use ssh for server connexion
+ssh -i ~/.ssh/school ubunbu@18.206.202.122 

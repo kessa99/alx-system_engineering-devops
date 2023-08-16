@@ -1,0 +1,6 @@
+Host *
+    IgnoreUnknown AddKeysToAgent, UserKeychain
+    AddKeysToAgent yes
+    UserKeychain yes
+    IdentityFile ~/.ssh/school
+    IdentityFile ~/.ssh/school
